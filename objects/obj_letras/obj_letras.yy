@@ -3,13 +3,14 @@
   "%Name":"obj_letras",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_letras",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Textos",
+    "path":"folders/Objects/Textos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,6 +29,8 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"letra","filters":[],"listItems":[],"multiselect":false,"name":"letra","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"A","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"cor","filters":[],"listItems":[],"multiselect":false,"name":"cor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFF00FF","varType":7,},
+    {"$GMObjectProperty":"v2","%Name":"tempo","filters":[],"listItems":[],"multiselect":false,"name":"tempo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"distancia","filters":[],"listItems":[],"multiselect":false,"name":"distancia","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"12","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
