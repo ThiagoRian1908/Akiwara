@@ -6,6 +6,7 @@ var _sinwave = distancia * sin(_tempo * TAU);
 y = ystart + _sinwave;
 
 //Trocando o texto
+
 if (keyboard_check_pressed(vk_space))
 {
     if (atual < array_length(texto) - 1)
@@ -20,20 +21,23 @@ if (keyboard_check_pressed(vk_space))
     }
 }
 
+ 
 //Mudando
+/*
 if (keyboard_check_pressed(vk_up))
 {
-    chute = random_range(chute, 100);
+    global.chute = random_range(global.chute, 100);
 }
 else if (keyboard_check_pressed(vk_down))
 {
-    chute = random_range(0, chute);
+    global.chute = random_range(0, global.chute);
 }
 
-show_debug_message(chute);
+ */
+show_debug_message(atual);
 
 
 texto = ["Pense em um número de 0 a 100", 
 "Eu vou adivinhar o seu número!",
-"Pensou?!", "O número é 50", "Seu número é " + string(round(chute)), "Eba!!! Acertei!"];
+"Pensou?!", "Seu número é " + string(round(global.chute)), "Eba!!! Acertei!"];
 

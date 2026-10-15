@@ -1,0 +1,1 @@
+global.chute = 50;
